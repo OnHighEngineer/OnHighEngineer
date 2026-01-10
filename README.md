@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Manjunath S</h1>
-<h3 align="center">Aspiring ML Engineer | Backend Engineer | Data Engineering Enthusiast | Automation Specialist</h3>
+<h3 align="center">Aspiring ML Engineer | Backend Engineer | Data Engineering Enthusiast | Quality Assurance </h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E96F6&center=true&vCenter=true&width=600&lines=Information+Science+Engineering;Machine+Learning+Systems;Backend+Engineering+%26+APIs;Data+Engineering+%26+Pipelines;Automation+%26+DevOps" alt="Typing SVG" />
