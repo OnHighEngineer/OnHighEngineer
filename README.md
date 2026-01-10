@@ -2,7 +2,7 @@
 <h3 align="center">Aspiring ML Engineer | Backend Engineer | Data Engineering Enthusiast | Automation Specialist</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E96F6&center=true&vCenter=true&width=600&lines=Information+Science+Engineering;Machine+Learning+%26+GPU+Systems;Backend+Engineering+%26+APIs;Data+Engineering+%26+Pipelines;Automation+%26+DevOps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E96F6&center=true&vCenter=true&width=600&lines=Information+Science+Engineering;Machine+Learning+Systems;Backend+Engineering+%26+APIs;Data+Engineering+%26+Pipelines;Automation+%26+DevOps" alt="Typing SVG" />
 </p>
 
 ---
@@ -10,8 +10,8 @@
 ## 🧑‍💻 About Me
 
 🎓 **B.E. in Information Science Engineering**  
-💡 Passionate about building intelligent systems, scalable data pipelines, and robust automation frameworks  
-🔭 Currently exploring **MLOps**, **GPU Optimization**, and **Distributed Systems**  
+💡 Passionate about building scalable backend systems, reliable data pipelines, and ML-powered applications  
+🔭 Currently exploring **MLOps**, **Data Engineering**, and **production-grade ML systems**  
 🌱 Always learning, always building  
 
 ---
@@ -27,7 +27,6 @@
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
@@ -36,11 +35,11 @@
 ## 🔥 Core Competencies
 
 | Domain | Skills |
-|--------|--------|
-| **Machine Learning & AI** | Deep Learning, NLP, Classification, Model Optimization |
-| **GPU Computing** | CUDA, AMP (FP16), torch.compile, DDP, NVIDIA DCGM |
-| **Data Engineering** | ETL Pipelines, Data Processing, Real-time Analytics |
-| **Backend & APIs** | FastAPI, JWT Auth, Rate Limiting, Batch Inference |
+|------|-------|
+| **Machine Learning & AI** | Model Training, Classification, Evaluation, Optimization |
+| **MLOps** | Model Validation, Experiment Tracking (Foundational), ML Pipelines |
+| **Data Engineering** | ETL Pipelines, Data Processing, Data Validation, Analytics |
+| **Backend & APIs** | FastAPI, REST APIs, Authentication |
 | **DevOps & Monitoring** | Docker, Prometheus, Grafana, CI/CD |
 | **Automation & QA** | Selenium, TestNG, API Testing |
 
@@ -48,66 +47,38 @@
 
 ## 🚀 Featured Projects
 
-### ⚡ GPULab – GPU-Accelerated ML Training System
-> High-performance ML infrastructure pushing GPU utilization to the limit
+### 🔐 Real-Time API Monitoring & Automation System
+> Centralized backend system for API observability and reliability
 
-| Feature | Technology |
-|---------|------------|
-| **Mixed Precision Training** | AMP (FP16) + Fused Kernels |
-| **Accelerated Training** | `torch.compile()` + Pinned Memory + Async Loading |
-| **Real-time GPU Telemetry** | NVIDIA DCGM + Prometheus + Grafana |
-| **Inference Server** | FastAPI + Batch Inference + Low-Latency Serving |
-| **Benchmarking Suite** | GPU Memory %, Samples/sec, P95 Latency, Epoch Time |
-| **Deployment** | Dockerized (NVIDIA Runtime + Uvicorn) |
-| **Scaling** | ⚡ Multi-GPU Distributed Training via **DDP** |
+- API latency and error-rate monitoring  
+- Automated request/response logging  
+- Threshold-based alerts for performance anomalies  
+- Real-time and historical analytics dashboards  
 
-
----
-
-### 🔐 API Monitoring & Alert System (JWT Secured)
-> Real-time API health tracking with intelligent alerting
-
-- ✅ **JWT Authentication + RBAC** for secure access control
-- 📈 **Live Dashboards** – Latency, Throughput, Failure Rate metrics
-- 📝 **Request Logging** + Configurable **Rate Limiting**
-- 🚨 **Smart Alerts** – Email/Webhook notifications on threshold breaches
-- 🔍 **Anomaly Detection** for API performance degradation
-
----
-
-### 📍 Geo-Ad Marketing Platform
-> Location-based intelligent ad distribution & targeting system
-
-- 🗺️ **User Behavior Tracking** + Area-Interest Heatmaps
-- 🎯 **Dynamic Ad Placement** with intelligent segmentation
-- 💰 **Budget Optimization** engine for maximum ROI
-- 📊 **Analytics Dashboard** – CTR, Reach, Conversions, Campaign Performance
-- 🔄 **Real-time Targeting Pipeline** for personalized ads
+**Tech:** Kotlin, MongoDB, Next.js
 
 ---
 
 ### 📰 Fake News Detection & Research Analysis Platform
-> Unified NLP platform for misinformation detection & research paper processing
+> ML-based system for misinformation detection and research processing
 
-| Module | Functionality |
-|--------|---------------|
-| **Fake News Classifier** | ML model to detect & flag misinformation with high accuracy |
-| **Research Extractor** | Automated paper extraction & metadata parsing |
-| **NLP Summarizer** | Intelligent summarization of research documents |
-| **Classification Engine** | Topic categorization & relevance scoring |
+- Text preprocessing and feature extraction  
+- Classification models for news detection  
+- Real-time predictions and analytics  
+- Structured storage for reporting  
 
-- Built with **scikit-learn**, **NLP pipelines**, and **text classification** models
-- Streamlined research workflow with automated processing
+**Tech:** Python, Machine Learning, Gemini API, SQL
 
 ---
 
-### 🧬 Bone Marrow Cancer Detection
-> Medical image classification using Deep Learning
+### 🛒 E-commerce QA Automation & Data Validation
+> Automation framework for functional and data-level validation
 
-- 🔬 Applied **CNN architectures** for accurate cell classification
-- 🎯 Focused on improving **early detection accuracy**
-- 📊 Trained on medical imaging datasets with data augmentation
-- ⚕️ Potential for clinical decision support systems
+- End-to-end UI automation using Selenium + TestNG  
+- UI vs Database validation using SQL  
+- Structured defect reporting and test stability improvements  
+
+**Tech:** Java, Selenium, TestNG, SQL, MySQL
 
 ---
 
@@ -128,7 +99,7 @@
 ---
 
 <p align="center">
-  <i>"Building intelligent systems that scale."</i>
+  <i>"Building data-driven systems that scale."</i>
 </p>
 
 <p align="center">⭐ From <a href="https://github.com/onhighengineer">Manjunath S</a></p>
