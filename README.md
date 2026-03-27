@@ -1,105 +1,151 @@
-<h1 align="center">Hi 👋, I'm Manjunath S</h1>
-<h3 align="center">Aspiring ML Engineer | Backend Engineer | Data Engineering Enthusiast | Quality Assurance </h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E96F6&center=true&vCenter=true&width=600&lines=Information+Science+Engineering;Machine+Learning+Systems;Backend+Engineering+%26+APIs;Data+Engineering+%26+Pipelines;Automation+%26+DevOps" alt="Typing SVG" />
-</p>
+```
+███╗   ███╗ █████╗ ███╗   ██╗     ██╗██╗   ██╗███╗   ██╗ █████╗ ████████╗██╗  ██╗
+████╗ ████║██╔══██╗████╗  ██║     ██║██║   ██║████╗  ██║██╔══██╗╚══██╔══╝██║  ██║
+██╔████╔██║███████║██╔██╗ ██║     ██║██║   ██║██╔██╗ ██║███████║   ██║   ███████║
+██║╚██╔╝██║██╔══██║██║╚██╗██║██   ██║██║   ██║██║╚██╗██║██╔══██║   ██║   ██╔══██║
+██║ ╚═╝ ██║██║  ██║██║ ╚████║╚█████╔╝╚██████╔╝██║ ╚████║██║  ██║   ██║   ██║  ██║
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝
+```
 
----
+**`AI/ML · Backend · QA · Systems`**
 
-## 🧑‍💻 About Me
+[![Email](https://img.shields.io/badge/manjuss0409@gmail.com-000?style=flat-square&logo=gmail&logoColor=white)](mailto:manjuss0409@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/contact-manjunath-s/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=vercel&logoColor=white)](https://onhighengineer.github.io/manju/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat-square&logo=github&logoColor=white)](https://github.com/onhighengineer)
 
-🎓 **B.E. in Information Science Engineering**  
-💡 Passionate about building scalable backend systems, reliable data pipelines, and ML-powered applications  
-🔭 Currently exploring **MLOps**, **Data Engineering**, and **production-grade ML systems**  
-🌱 Always learning, always building  
-
----
-
-## 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-</p>
+</div>
 
 ---
 
-## 🔥 Core Competencies
+## $ whoami
 
-| Domain | Skills |
-|------|-------|
-| **Machine Learning & AI** | Model Training, Classification, Evaluation, Optimization |
-| **MLOps** | Model Validation, Experiment Tracking (Foundational), ML Pipelines |
-| **Data Engineering** | ETL Pipelines, Data Processing, Data Validation, Analytics |
-| **Backend & APIs** | FastAPI, REST APIs, Authentication |
-| **DevOps & Monitoring** | Docker, Prometheus, Grafana, CI/CD |
-| **Automation & QA** | Selenium, TestNG, API Testing |
+Final-year ISE student building at the intersection of **AI systems**, **backend engineering**, and **quality automation**.  
+I work on things that process documents intelligently, classify medical images, route LLM calls, and break software before users do.
+
+```python
+focus = ["LLM Systems", "Deep Learning", "Backend APIs", "Agentic QA", "MLOps"]
+currently_building = "AI Gateway with TF-IDF routing + LLM guardrails"
+open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agentic Testing"]
+```
 
 ---
 
-## 🚀 Featured Projects
+## ⚡ Experience
 
-### 🔐 Real-Time API Monitoring & Automation System
-> Centralized backend system for API observability and reliability
+**Amazon ML Summer School** `Aug – Oct 2025`  
+→ Supervised/unsupervised learning, deep learning, optimization on 10K+ sample datasets  
+→ Model evaluation pipelines, hyperparameter tuning, AWS-based ML workflows  
 
-- API latency and error-rate monitoring  
-- Automated request/response logging  
-- Threshold-based alerts for performance anomalies  
+---
+
+## 🔨 Projects
+
+### `AIGatewayLLM` — LLM Routing & Guardrails Engine
+> Lightweight AI gateway with intelligent request routing and safety enforcement
+
+- **TF-IDF based semantic router** — classifies and routes prompts to appropriate LLM endpoints without heavy embeddings overhead  
+- **Small neural network classifier** (CPU-optimized) — custom-trained DBERT-style model for intent detection and guardrail enforcement  
+- **Embedding-based similarity layer** — cosine similarity matching for prompt deduplication and caching  
+- **LLM guardrails** — trained lightweight classification model to detect unsafe/off-policy inputs pre-inference  
+
+**Stack:** `Python` `PyTorch` `TF-IDF` `Embeddings` `FastAPI` `LLM APIs`
+
+---
+
+### `KramaAI` — Intelligent Document Processing System
+> End-to-end pipeline for extracting structured data from unstructured documents
+
+- OCR preprocessing pipeline for scanned PDF → machine-readable text  
+- Vision-Language Model (VLM) integration for entity extraction and document understanding  
+- Structured JSON output pipeline for downstream analytics and automation  
+- FastAPI backend for document upload, async processing, and scalable extraction  
+
+**Stack:** `Python` `FastAPI` `VLM APIs` `OCR` `SQL` `AI Automation`
+
+---
+
+### `CytoMind` — Bone Marrow Cancer Detection
+> Hybrid deep learning system for medical image classification
+
+- CNN + Vision Transformer hybrid architecture for bone marrow cell classification  
+- Training pipeline with data augmentation and transfer learning — +18–25% generalization improvement  
+- Evaluation using weighted F1, confusion matrix, and imbalanced-data validation strategies  
+- FastAPI inference API with latency monitoring and structured logging  
+
+**Stack:** `Python` `PyTorch` `CNN` `ViT` `FastAPI`
+
+---
+
+### `Research Tool & Fake News Detector`
+> LLM-powered content validation and misinformation detection
+
+- Gemini API integration with prompt-based workflows for summarization and classification  
+- Multi-run response logging to assess LLM accuracy, consistency, and reliability  
+- Structured storage and analytics for research reporting  
+
+**Stack:** `Python` `Gemini API` `SQL` `Git`
+
+---
+
+### `Real-Time API Monitoring System`
+> Centralized observability platform for API reliability
+
+- Latency and error-rate monitoring with threshold-based alerting  
 - Real-time and historical analytics dashboards  
 
-**Tech:** Kotlin, MongoDB, Next.js
+**Stack:** `Kotlin` `MongoDB` `Next.js`
 
 ---
 
-### 📰 Fake News Detection & Research Analysis Platform
-> ML-based system for misinformation detection and research processing
+### `E-Commerce QA Automation Framework`
+> Functional + data-level test automation at scale
 
-- Text preprocessing and feature extraction  
-- Classification models for news detection  
-- Real-time predictions and analytics  
-- Structured storage for reporting  
+- End-to-end UI automation with Selenium + TestNG  
+- UI ↔ Database consistency validation via SQL  
+- Agentic test flows — structured defect reporting, regression detection  
 
-**Tech:** Python, Machine Learning, Gemini API, SQL
-
----
-
-### 🛒 E-commerce QA Automation & Data Validation
-> Automation framework for functional and data-level validation
-
-- End-to-end UI automation using Selenium + TestNG  
-- UI vs Database validation using SQL  
-- Structured defect reporting and test stability improvements  
-
-**Tech:** Java, Selenium, TestNG, SQL, MySQL
+**Stack:** `Java` `Selenium` `TestNG` `MySQL`
 
 ---
 
-## 🤝 Let's Connect
+## 🧰 Stack
 
-<p align="left">
-  <a href="mailto:manjuss0409@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/contact-manjunath-s/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://onhighengineer.github.io/manju/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/>
-  </a>
-</p>
+```
+Language     →  Python · Java · SQL
+AI/ML        →  PyTorch · Transformers · CNNs · ViTs · TF-IDF · Embeddings
+LLM Systems  →  LLM APIs · VLM · OCR · RAG · Prompt Engineering · Guardrails
+Backend      →  FastAPI · REST APIs · Auth
+DevOps       →  Docker · Prometheus · Grafana · Git · CI/CD
+QA & Testing →  Selenium · TestNG · Agentic Testing · API Testing · Postman
+Data         →  ETL Pipelines · Data Validation · SQL Analytics
+```
 
 ---
 
-<p align="center">
-  <i>"Building data-driven systems that scale."</i>
-</p>
+## 📜 Certifications
 
-<p align="center">⭐ From <a href="https://github.com/onhighengineer">Manjunath S</a></p>
+| | |
+|---|---|
+| 🏅 Build Real World AI Apps with Gemini & Imagen | Google — `07/2025` |
+| 🏅 AWS Solutions Architecture Program | Amazon Web Services — `03/2025` |
+| 🏅 Technology Job Simulation | Deloitte Australia (Forage) — `03/2025` |
+| 🏅 Data Analytics Job Simulation | Quantum (Forage) — `03/2025` |
+
+---
+
+## 🎓 Education
+
+**B.E. Information Science Engineering**  
+Dayananda Sagar College of Engineering, Bengaluru · `2022 – 2026`  
+Coursework: DBMS · DSA · OOP · Machine Learning · QA · SQL
+
+---
+
+<div align="center">
+
+`"Ship systems that think, scale, and don't break in production."`
+
+</div>
