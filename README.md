@@ -33,7 +33,7 @@ open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agenti
 
 ---
 
-## ⚡ Experience
+## Experience
 
 **Amazon ML Summer School** `Aug – Oct 2025`  
 → Supervised/unsupervised learning, deep learning, optimization on 10K+ sample datasets  
@@ -41,7 +41,7 @@ open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agenti
 
 ---
 
-## 🔨 Projects
+## Projects
 
 ### `AIGatewayLLM` — LLM Routing & Guardrails Engine
 > Lightweight AI gateway with intelligent request routing and safety enforcement
@@ -111,7 +111,7 @@ open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agenti
 
 ---
 
-## 🧰 Stack
+## Stack
 
 ```
 Language     →  Python · Java · SQL
@@ -125,18 +125,18 @@ Data         →  ETL Pipelines · Data Validation · SQL Analytics
 
 ---
 
-## 📜 Certifications
+## Certifications
 
 | | |
 |---|---|
-| 🏅 Build Real World AI Apps with Gemini & Imagen | Google — `07/2025` |
-| 🏅 AWS Solutions Architecture Program | Amazon Web Services — `03/2025` |
-| 🏅 Technology Job Simulation | Deloitte Australia (Forage) — `03/2025` |
-| 🏅 Data Analytics Job Simulation | Quantum (Forage) — `03/2025` |
+| Build Real World AI Apps with Gemini & Imagen | Google — `07/2025` |
+| AWS Solutions Architecture Program | Amazon Web Services — `03/2025` |
+| Technology Job Simulation | Deloitte Australia (Forage) — `03/2025` |
+| Data Analytics Job Simulation | Quantum (Forage) — `03/2025` |
 
 ---
 
-## 🎓 Education
+## Education
 
 **B.E. Information Science Engineering**  
 Dayananda Sagar College of Engineering, Bengaluru · `2022 – 2026`  
