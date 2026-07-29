@@ -131,7 +131,7 @@ Data         →  ETL Pipelines · Data Validation · SQL Analytics
 |---|---|
 | Build Real World AI Apps with Gemini & Imagen | Google — `07/2025` |
 | AWS Solutions Architecture Program | Amazon Web Services — `03/2025` |
-| Technology Job Simulation | Deloitte Australia (Forage) — `03/2025` |
+| Technology Job Simulation|Deloitte Australia (Forage) — `03/2025` |
 | Data Analytics Job Simulation | Quantum (Forage) — `03/2025` |
 
 ---
