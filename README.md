@@ -22,12 +22,13 @@
 
 ## $ whoami
 
-Final-year ISE student building at the intersection of **AI systems**, **backend engineering**, and **quality automation**.  
-I work on things that process documents intelligently, classify medical images, route LLM calls, and break software before users do.
+B.E. Information Science graduate (DSCE, VTU, 2026) building at the intersection of **AI systems**, **backend engineering**, and **quality automation**.  
+I work on things that audit medical codes against clinical charts, process documents intelligently, classify medical images, route LLM calls, and break software before users do.
 
 ```python
-focus = ["LLM Systems", "Deep Learning", "Backend APIs", "Agentic QA", "MLOps"]
-currently_building = "AI Gateway with TF-IDF routing + LLM guardrails"
+focus = ["LLM Systems", "Agentic Workflows", "Deep Learning", "Backend APIs", "Evals"]
+currently_building = ["medcode-audit: coding audit agent + eval harness",
+                      "job-hunt-agent: open-source job search agent"]
 open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agentic Testing"]
 ```
 
@@ -35,13 +36,43 @@ open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agenti
 
 ## Experience
 
+**Arintra** (YC-backed healthcare AI) · SDE `Apr 2026 – Oct 2026`  
+→ Clinical RAG agent over 100K+ chart records  
+→ Production agent pipelines in Python/GenAI: AI data agents, MCP tools, persistent agent memory  
+
 **Amazon ML Summer School** `Aug – Oct 2025`  
 → Supervised/unsupervised learning, deep learning, optimization on 10K+ sample datasets  
 → Model evaluation pipelines, hyperparameter tuning, AWS-based ML workflows  
+→ Amazon ML Challenge 2025: rank 829 of ~24,000 teams  
 
 ---
 
 ## Projects
+
+### `medcode-audit` · Medical Coding Audit Agent + Eval Harness
+> Prototype agent that audits ICD-10 codes against chart evidence, scored by a harness that plants known errors
+
+- Per-code verdicts (correct / unsupported / wrong specificity) with verbatim evidence quotes from the chart, plus missed-code findings  
+- Eval harness plants errors (unsupported codes, upcoding, missed codes, negated conditions) into synthetic cases and scores what the auditor catches  
+- Upcoding flagged when a claimed code's severity rank exceeds what the note supports, using license-safe ICD-10-CM title rankings  
+- Fail-closed reply validation, failure analysis, cost/latency reports, snapshot regression in CI; 425 tests green on Python 3.10/3.11  
+- Runs fully offline on 50 synthetic charts with canned LLM transports, no provider keys; a behavior demo, not a clinical accuracy benchmark  
+
+**Stack:** `Python` `LLM eval harness` `pytest` `GitHub Actions`
+
+---
+
+### `job-hunt-agent` · Open-Source Job Search Agent
+> Finds fresh roles, gates them with deterministic rules, scores fit with your own LLM, and tracks every decision
+
+- Deterministic rule gates (experience cap, posting freshness, blocklist, stipend floor) run before any paid model call  
+- Bring your own key: OpenAI / Gemini / Grok / Claude adapters, keys from the environment only, monthly spend cap enforced  
+- SQLite tracker with CSV export; Gmail reply reader; approved cold email with a daily cap; LinkedIn notes drafted to a queue, never auto-sent  
+- Telegram alerts with approve/skip replies; MIT-licensed; 96 offline tests, CI across Python 3.10-3.12  
+
+**Stack:** `Python` `SQLite` `Telegram Bot API` `Gmail API` `LLM APIs`
+
+---
 
 ### `AIGatewayLLM` — LLM Routing & Guardrails Engine
 > Lightweight AI gateway with intelligent request routing and safety enforcement
