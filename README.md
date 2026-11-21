@@ -29,7 +29,7 @@ I work on things that audit medical codes against clinical charts, process docum
 focus = ["LLM Systems", "Agentic Workflows", "Deep Learning", "Backend APIs", "Evals"]
 currently_building = ["medcode-audit: coding audit agent + eval harness",
                       "job-hunt-agent: open-source job search agent"]
-open_to = ["AI/ML Engineer", "SWE", "Backend Engineer", "QA Automation", "Agentic Testing"]
+open_to = ["Software Engineer 1", "AI Engineer", "Backend Engineer"]
 ```
 
 ---
